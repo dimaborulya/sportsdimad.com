@@ -1,0 +1,67 @@
+ body{
+     margin: 0;
+     padding: 0;
+ }
+ 
+ #name1 {
+    
+        font-size: 40px;
+        background-color: aqua;
+        text-align: center;
+        color: green;
+        margin: 0;
+ }
+ .name1 {
+    background-color: rgb(192, 188, 188);
+    text-align: center;
+    margin: 0px;
+    height: 25px;
+ }
+ div {
+    background-color: rgb(192, 184, 184);
+    margin-top: 0px;
+    padding: 5px;
+ }
+ .name2 {
+    font-size: 20px;
+ }
+ .name7 {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin:10px ;
+ }
+p {
+    font-size: 25px;
+    text-align: center;
+}
+.name6 {
+    width: 500px;
+    height: 600px;
+}
+.name5 {
+    text-decoration: none;
+    margin: 10px 5px 10px 5px;
+}
+.name3 {
+    font-size: 25px;
+}
+head {
+    background-color: rgb(192, 184, 184);
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-me .images{
+    display: flex;
+    flex-wrap: wrap;
+}
+.images img {
+    margin: 5px 10px;
+    object-fit: cover;
+    flex-grow: 1;
+}
